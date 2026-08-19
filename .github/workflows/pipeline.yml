@@ -39,6 +39,13 @@ jobs:
           pip install black flake8
 
       # --------------------------------------------------
+      # Python Code Format
+      # --------------------------------------------------
+      - name: Format Python code
+        run: |
+          black django/
+
+      # --------------------------------------------------
       # Python Formatting
       # --------------------------------------------------
       - name: Check Python formatting
