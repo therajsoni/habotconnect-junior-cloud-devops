@@ -1,0 +1,11 @@
+project_id = "YOUR_GCP_PROJECT_ID"
+
+region = "us-central1"
+
+bucket_name = "YOUR-GLOBALLY-UNIQUE-D0-BUCKET"
+
+dataset_id = "d1_staged_enforced"
+
+runtime_service_account = "runtime@YOUR_GCP_PROJECT_ID.iam.gserviceaccount.com"
+
+analytics_group = "analytics@example.com"
